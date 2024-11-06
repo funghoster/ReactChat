@@ -1,0 +1,57 @@
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: var(--background-color-light);
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sendButton {
+  background-color: var(--button-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.emoji {
+  position: relative;
+}
+.picker {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}

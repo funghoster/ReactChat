@@ -1,0 +1,12 @@
+/* Необходимо написать свои переменные */
+
+:root {
+  /* Цвета */
+  --background-color-light: rgba(17, 25, 40, 0.5);
+  --background-color-dark: rgba(17, 25, 40, 0.8);
+  --background-color-light-plus: rgba(17, 25, 40, 0.3);
+  --border-color: #dddddd35;
+  --button-color: #5183fe;
+  --button-color-danger-light: rgba(230, 74, 105, 0.553);
+  --button-color-danger-dark: rgba(220, 20, 60, 0.796);
+}

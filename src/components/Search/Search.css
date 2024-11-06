@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  .search-bar {
+    flex: 1;
+    background-color: var(--background-color-light);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      flex: 1;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+  .search-bar:hover {
+    background-color: var(--background-color-dark);
+  }
+}

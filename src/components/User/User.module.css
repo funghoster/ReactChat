@@ -1,0 +1,42 @@
+.user {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.nameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.avatar {
+  border-radius: 50%;
+}
+.icons {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+
+  img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.name {
+  font-weight: 500;
+}
